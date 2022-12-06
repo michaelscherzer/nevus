@@ -19,9 +19,16 @@ website:
   
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        file: index.qmd
+      - text: "Projects"
+        file: protect/index.html
+      - text: "publications"
+        file: protect/projects.qmd
+      - text: "Teaching"
+        file: protect/projects.qmd
+
+     
        
 
 
