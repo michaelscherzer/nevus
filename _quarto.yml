@@ -24,9 +24,9 @@ website:
       - text: "Projects"
         file: protect/index.html
       - text: "publications"
-        file: protect/projects.qmd
+        file: about.qmd
       - text: "Teaching"
-        file: protect/projects.qmd
+        file: about.qmd
 
      
        
