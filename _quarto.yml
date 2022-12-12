@@ -40,9 +40,9 @@ website:
         collapse-level: 2
         contents:
         - text: "CV"
-          href: pdf/Curriculum_Vitae.pdf
+          href: pdfs/Curriculum_Vitae.pdf
         - text: "Resume"
-          href: pdf/Curriculum_Vitae.pdf
+          href: pdfs/Curriculum_Vitae.pdf
        
 
 
