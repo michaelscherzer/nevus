@@ -1,8 +1,10 @@
 {
-  "hash": "b5171e30032988b7c8338b4d9039ee7d",
+  "hash": "d392656da99e06a5b1ac7639e85f8a43",
   "result": {
-    "markdown": "---\ntitle: \"projects\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"projects\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n**Sasani TA**, Ashbrook DG, Beichman AC, Lu L, Palmer AA, Williams RW, Pritchard JK, Harris K. A natural mutator allele shapes mutation spectrum variation in mice (2022). [*Nature.*](https://www.nature.com/articles/s41586-022-04701-5) [**Code.**](https://github.com/tomsasani/bxd_mutator_manuscript) [[.pdf]](test.html)\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

@@ -25,10 +25,24 @@ website:
         file: protect/index.html
       - text: "publications"
         file: about.qmd
-      - text: "Teaching"
+      - text: "test"
         file: about.qmd
+      - sidebar:cv
+        
 
-     
+  sidebar:
+  
+      - id: cv
+        title: "CV/Resume"
+        
+        style: "docked"
+        background: light 
+        collapse-level: 2
+        contents:
+        - text: "CV"
+          href: pdf/Curriculum_Vitae.pdf
+        - text: "Resume"
+          href: pdf/Curriculum_Vitae.pdf
        
 
 

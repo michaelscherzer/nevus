@@ -6,6 +6,9 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+
+**Sasani TA**, Ashbrook DG, Beichman AC, Lu L, Palmer AA, Williams RW, Pritchard JK, Harris K. A natural mutator allele shapes mutation spectrum variation in mice (2022). [*Nature.*](https://www.nature.com/articles/s41586-022-04701-5) [**Code.**](https://github.com/tomsasani/bxd_mutator_manuscript) [[.pdf]](test.html)
+
 ```{r}
 1 + 1
 ```

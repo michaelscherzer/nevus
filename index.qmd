@@ -2,10 +2,5 @@
 title: "nevus"
 ---
 
-This is a Quarto website.
+Nevus-like documents will be here
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
