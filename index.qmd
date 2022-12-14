@@ -1,6 +1,33 @@
 ---
-title: "nevus"
+title: "Michael Scherzer, PhD"
+from: markdown+emoji
+about:
+  template: solana
+  image: 6276_58x_nevi.jpg
 ---
 
-Nevus-like documents will be here
+**I’m a cancer biologist using genetics and cell biology to improve melanoma interception**
+
+## Experience
+
+#### Post-Doctoral Scientist with [Dr. Robert Judson-Torres](https://judsontorreslab.org/)
+
+:test_tube: **May 2022 - present**: Modulating melanocytic cell-states  as a potential strategy for melanoma interception
+
+#### Grduate Student with [ Martin McMahon](https://uofuhealth.utah.edu/huntsman/labs/mcmahon)
+
+:mouse2: **2016 - 2022**: Characterized mouse models of Lung Adenocarcinoma
+
+<!-- ## Education 
+
+**University of Utah** | Salt Lake City, UT 
+
+* Ph.D in Oncological Sciences | 2015 - 2022
+
+**University of Louisville** | Louisville, KY
+
+* M.Eng in Bioengineering | 2013 - 2015  -->
+
+
+
 

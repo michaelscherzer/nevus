@@ -7,7 +7,7 @@ website:
   
   
   page-footer:
-    left: "A work by Michael Scherzer"
+    left: "A site by Michael Scherzer"
     right:
       - icon: github
         href: https://github.com
@@ -24,8 +24,6 @@ website:
       - text: "Projects"
         file: protect/index.html
       - text: "publications"
-        file: about.qmd
-      - text: "test"
         file: about.qmd
       - sidebar:cv
         

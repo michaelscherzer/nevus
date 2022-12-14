@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "nevus",
+    "title": "Michael Scherzer, PhD",
     "section": "",
-    "text": "Nevus-like documents will be here"
+    "text": "I’m a cancer biologist using genetics and cell biology to improve melanoma interception"
   },
   {
     "objectID": "projects.html",
@@ -47,5 +47,12 @@
     "title": "projects",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nSasani TA, Ashbrook DG, Beichman AC, Lu L, Palmer AA, Williams RW, Pritchard JK, Harris K. A natural mutator allele shapes mutation spectrum variation in mice (2022). Nature. Code. [.pdf]\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Michael Scherzer, PhD",
+    "section": "Experience",
+    "text": "Experience\n\nPost-Doctoral Scientist with Dr. Robert Judson-Torres\n🧪 May 2022 - present: Modulating melanocytic cell-states as a potential strategy for melanoma interception\n\n\nGrduate Student with Martin McMahon\n🐁 2016 - 2022: Characterized mouse models of Lung Adenocarcinoma"
   }
 ]
