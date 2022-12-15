@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "Under Construction"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+[Full list here @ Google Scholar](https://scholar.google.com/citations?user=KXR4ptoAAAAJ&hl=en)

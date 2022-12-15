@@ -6,7 +6,7 @@ about:
   image: 6276_58x_nevi.jpg
 ---
 
-**I’m a cancer biologist using genetics and cell biology to improve melanoma interception**
+**I’m a cancer biologist using genetics and cell biology to answer interesting questions about melanocyte/melanoma biology**
 
 ## Experience
 

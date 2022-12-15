@@ -38,9 +38,9 @@ website:
         collapse-level: 2
         contents:
         - text: "CV"
-          href: pdfs/Curriculum_Vitae.pdf
+          href: pdfs/Scherzer_CV.pdf
         - text: "Resume"
-          href: pdfs/Curriculum_Vitae.pdf
+          href: pdfs/Scherzer_Resume.pdf
        
 
 
