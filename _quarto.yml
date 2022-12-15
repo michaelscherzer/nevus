@@ -25,6 +25,8 @@ website:
         file: protect/index.html
       - text: "publications"
         file: about.qmd
+      - text: "Hobbies"
+        file: hobby.qmd
       - sidebar:cv
         
 
