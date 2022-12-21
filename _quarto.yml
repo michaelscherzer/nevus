@@ -54,7 +54,3 @@ format:
 
 editor: visual
 
-comments:
-  giscus:
-    repo: michaelscherzer/nevus
-
