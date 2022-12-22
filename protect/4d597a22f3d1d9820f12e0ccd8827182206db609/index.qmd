@@ -18,7 +18,7 @@ format:
 
 
 ::: {.border}
-BRAF mut+CDKN2A null growth arrested melanocytes (P90) VS BRAF mut+CDKN2A null melanomas
+BRAF mut+CDKN2A null growth arrested melanocytes (P50) VS BRAF mut+CDKN2A null melanomas
 
 ```{r, echo=F,warning=FALSE, message= FALSE, collapse=TRUE}
 library(DT)
