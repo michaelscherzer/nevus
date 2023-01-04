@@ -23,7 +23,7 @@ website:
         file: index.qmd
       - text: "Projects"
         file: protect/index.html
-      - text: "publications"
+      - text: "Publications"
         file: about.qmd
       - text: "Hobbies"
         file: hobby.qmd
