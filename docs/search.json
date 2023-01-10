@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Under Construction",
+    "title": "Michael Scherzer’s Research Publications",
     "section": "",
     "text": "Full list here @ Google Scholar"
   },
@@ -53,7 +53,7 @@
     "href": "index.html#experience",
     "title": "Michael Scherzer, PhD",
     "section": "Experience",
-    "text": "Experience\n\nPost-Doctoral Scientist with Dr. Robert Judson-Torres\n🧪 May 2022 - present: Modulating melanocytic cell-states as a potential strategy for melanoma interception\n\n\nGrduate Student with Martin McMahon\n🐁 2016 - 2022: Characterized mouse models of Lung Adenocarcinoma"
+    "text": "Experience\n\nPost-Doctoral Scientist with Dr. Robert Judson-Torres\n🧪 May 2022 - present: Modulating melanocytic cell-states as a potential strategy for melanoma interception\n\n\nGrduate Student with Dr. Martin McMahon\n🐁 2016 - 2022: Characterized mouse models of Lung Adenocarcinoma"
   },
   {
     "objectID": "hobby.html",
@@ -61,5 +61,12 @@
     "title": "Under Construction",
     "section": "",
     "text": "Ill post my leatherworking projects here"
+  },
+  {
+    "objectID": "protect/6986f36e11e383a09b18c52140c1f157c551759f/index.html",
+    "href": "protect/6986f36e11e383a09b18c52140c1f157c551759f/index.html",
+    "title": "Michael Scherzer",
+    "section": "",
+    "text": "december 21st , 2022 Microarray analysis of Damsky et al Cancer cell paper\n\n\n\n\nBRAF mut+CDKN2A null growth arrested melanocytes (P50) VS BRAF mut+CDKN2A null melanomas"
   }
 ]
