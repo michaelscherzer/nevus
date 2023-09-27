@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Michael Scherzer"
-  
+  google-analytics: "UG-XDFMNBGHPJ"
   
   page-footer:
     left: "A site by Michael Scherzer"
