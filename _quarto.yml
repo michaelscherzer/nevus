@@ -4,7 +4,7 @@
 website:
   title: "Michael Scherzer"                                # Your name
   image: 6276_58x_nevi.jpg.jpg
-  
+  google-analytics: "G-XDFMNBGHPJ"
   favicon: 6276_58x_nevi.jpg
   
   # start of the navigation bar at the top of the website
