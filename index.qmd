@@ -2,7 +2,7 @@
 title: "Michael Scherzer, PhD"
 from: markdown+emoji
 about:
-  template: solana
+  template: jolla
   image: 6276_58x_nevi.jpg
 ---
 
