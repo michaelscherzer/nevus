@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Michael Scherzer"
+  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
   google-analytics: "UG-XDFMNBGHPJ"
   page-footer:
     left: "A site by Michael Scherzer"
@@ -17,6 +18,7 @@ website:
   
   
   navbar:
+    pinned: true
     left:
       - text: "Home"
         file: index.qmd
@@ -24,31 +26,18 @@ website:
         file: protect/index.html
       - text: "Publications"
         file: about.qmd
-      - text: "Hobbies"
+      - text: "CV"
         file: hobby.qmd
-      - sidebar:cv
+      
         
 
-  sidebar:
-  
-      - id: cv
-        title: "CV/Resume"
-        
-        style: "docked"
-        background: light 
-        collapse-level: 2
-        contents:
-        - text: "CV"
-          href: pdfs/Scherzer_CV.pdf
-        - text: "Resume"
-          href: pdfs/Scherzer_Resume.pdf
-       
 
 
 format:
   html:
-    theme: flatly
-    css: styles.scss
+    theme: 
+     -flatly
+      -styles.scss
     toc: true
 
 editor: visual

@@ -1,12 +1,19 @@
 ---
 title: "Michael Scherzer, PhD"
+subtitle: "I’m a cancer biologist using genetics and cell biology to answer interesting questions about melanocyte/melanoma biology"
 from: markdown+emoji
 about:
   template: jolla
+  id: about-block
   image: 6276_58x_nevi.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:michael.scherzer@hci.utah.edu"
+    
 ---
-
-**I’m a cancer biologist using genetics and cell biology to answer interesting questions about melanocyte/melanoma biology**
+::: {#about-block}
+:::
 
 ## Experience
 
