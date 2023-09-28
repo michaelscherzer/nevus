@@ -5,12 +5,12 @@ website:
   title: "Michael Scherzer"                                # Your name
   image: 6276_58x_nevi.jpg.jpg
   
-  favicon: 6276_58x_nevi.jpg.jpg
+  favicon: 6276_58x_nevi.jpg
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: 6276_58x_nevi.jpg.jpg
+    logo: 6276_58x_nevi.jpg
     
     # your sub-pages
     left:
@@ -40,7 +40,7 @@ website:
     type: textbox
   page-footer: 
     left: "A site by Michael Scherzer"
-
+    
 project:
   type: website
   output-dir: docs
@@ -66,3 +66,4 @@ format:
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
+    highlight-style: monokai
