@@ -1,5 +1,21 @@
 ---
-title: "Michael Scherzer's Research Publications"
+title: "Publications"
+listing:
+  - id: ay_23-24
+    contents: ay_23-24.yml
+    sort: "date desc"
+    template: ../html/listing.ejs
+
+title-block-banner: "#EE6A24"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Academic year
 ---
 
-[Full list here @ Google Scholar](https://scholar.google.com/citations?user=KXR4ptoAAAAJ&hl=en)
+## 2023–24
+
+:::{#ay_23-24}
+:::
+
+
