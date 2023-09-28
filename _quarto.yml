@@ -1,44 +1,68 @@
-project:
-  type: website
-  output-dir: docs
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
 
+# website settings
 website:
-  title: "Michael Scherzer"
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
-  google-analytics: "UG-XDFMNBGHPJ"
-  page-footer:
-    left: "A site by Michael Scherzer"
-    right:
-      - icon: github
-        href: https://github.com
-      - icon: twitter
-        href: https://twitter.com
-      - icon: envelope
-        href: mailto:michael.scherzer@hci.utah.edu
+  title: "Michael Scherzer"                                # Your name
+  image: 6276_58x_nevi.jpg.jpg
   
+  favicon: 6276_58x_nevi.jpg.jpg
   
+  # start of the navigation bar at the top of the website
   navbar:
     pinned: true
+    logo: 6276_58x_nevi.jpg.jpg
+    
+    # your sub-pages
     left:
       - text: "Home"
         file: index.qmd
       - text: "Projects"
         file: protect/index.html
       - text: "Publications"
-        file: about.qmd
+        file: publications/index.qmd
       - text: "CV"
-        file: hobby.qmd
-      
-        
+        file: cv/index.qmd
+    
+    # your social media handles
+    right:
 
+      # - icon: linkedin
+        # href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:michael.scherzer@hci.utah.edu"  
+  
+  
 
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: "A site by Michael Scherzer"
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
 
 format:
   html:
+    fontsize: 1.1em
     theme: 
-     -flatly
-      -styles.scss
-    toc: true
-
-editor: visual
-
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

@@ -25,5 +25,11 @@
   },
   "protect/6986f36e11e383a09b18c52140c1f157c551759f/index.qmd": {
     "index.html": "c808efd4"
+  },
+  "cv/index.qmd": {
+    "index.html": "ba334c06"
+  },
+  "publications/index.qmd": {
+    "index.html": "1d8d3b1f"
   }
 }
