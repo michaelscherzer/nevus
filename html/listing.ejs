@@ -24,6 +24,12 @@
                 | <span class="course-role"><%= course.role %></span>
                 <% } %>
             </p>
+             <p class="course-authorship">
+                <span class="course-authors"><%= course.authors %></span>
+                <% if (course.role) { %>
+                | <span class="course-role"><%= course.role %></span>
+                <% } %>
+            </p>
             <p class="course-description"><%= course.description %></p>
 
             <ul class="course-semesters">

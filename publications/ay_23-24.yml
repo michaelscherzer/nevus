@@ -1,9 +1,10 @@
 - title: Perilesional Epigenomes Distinguish Melanocytic Nevus Subtypes
   description: "Commentary on recent JID publication that describes differential methylation in normal skin adjacent to different nevus subtypes"
   university: Journal of Investigative dermatology
-  number: PMAP 8551/4551
+  number: Fall 2023
   url: https://www.sciencedirect.com/science/article/pii/S0022202X23019607?via%3Dihub/
-  logo: logos/Capture.JPG
+  authors: Michael Scherzer, Dekker Deacon, Robert Judson-Torres
+  logo: logos/epigenome_jid.JPG
   semester:
-  - name: Fall 2023
-    url: https://www.sciencedirect.com/science/article/pii/S0022202X23019607?via%3Dihub
+  - name: Volume 143,Issue 9, p1631-1633
+    url: https://www.jidonline.org/article/S0022-202X(23)01960-7/fulltext
