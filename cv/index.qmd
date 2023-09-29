@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum vitae
+title: Curriculum vitae updated September 2023
 excerpt: My current CV
 execute:
   freeze: true  # never re-render during project render

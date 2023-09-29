@@ -31,5 +31,8 @@
   },
   "publications/index.qmd": {
     "index.html": "1d8d3b1f"
+  },
+  "protect/index.qmd": {
+    "index.html": "6e290ec1"
   }
 }

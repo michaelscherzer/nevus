@@ -1,10 +1,44 @@
 - title: Suramin Protects against cisplatin-induced acute kidney injury
-  description: test
+  description: Tested the efficacy of suramin to protect against cisplastin toxicities
   university: American Journal of Physiology Renal Pathology
   number: Winter 2016
   url: https://journals.physiology.org/doi/full/10.1152/ajprenal.00433.2015
   authors: Dupre, T., Doll, M., Shah, P., Sharp, C., Kiefer, A., Scherzer MT, Siskind, L.
-  logo: dupre.JPG
+  logo: logos/dupre.JPG
   semester:
   - name: Volume 310,Issue 3, Pages F248-F258
     url: https://journals.physiology.org/doi/full/10.1152/ajprenal.00433.2015
+
+- title: Fibroblast-Derived Extracellular Matrices As An Alternative Cell Culture System That Increases Metastatic Cellular Properties
+  description: "Created Fibroblast-derived Matrices to compare the cell biology of lung cancer cells in 2D vs 3D"
+  university:  Plos One
+  number: Fall 2015
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138065
+  authors: Scherzer, MT, Waigel, S, Donninger H, Arumugam V, Zacharias, W, Clark, G, Siskind, L, Soucy, P, Beverly, L.
+  logo: logos/plosone.JPG
+  semester:
+  - name: https://doi.org/10.1371/journal.pone.0138065
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138065
+
+- title: The PIM family of oncoproteins are small kinases with huge implications in myeloid leukemogenesis and as therapeutic targets
+  description: "Used in vitro and in vivo models of leukemia to test cooperation of all three PIM kinases to cooperate with MYC"
+  university:  Oncotarget
+  number: Fall 2014
+  url: https://www.oncotarget.com/article/2330/text/
+  authors: Saurabh K*, Scherzer, MT*, SHah, P, Mims, A, Lockwood, W, Kraft A, Beverly LJ.
+  logo: logos/oncotarget.JPG
+  semester:
+  - name: https://doi.org/10.18632/oncotarget.2330
+    url: https://www.oncotarget.com/article/2330/text/
+    
+- title:  Dissecting the In Vivo Leukemogenic Potency of BCLxl
+  description: "Here we swapped BH domains of different BCL proteins to determine oncogenic potency"
+  university:  Journal of Leukemia
+  number: Fall 2014
+  url: https://www.longdom.org/open-access/dissecting-the-in-vivo-leukemogenic-potency-of-bclxl-2329-6917-1000158.pdf
+  authors: Saurabh K*, Scherzer, MT*, Song A, Yip KW, Reed JC, et al.
+  logo: logos/bclxl.JPG
+  semester:
+  - name: DOI 10.4172/2329-6917.1000158
+
+    url: https://www.longdom.org/open-access/dissecting-the-in-vivo-leukemogenic-potency-of-bclxl-2329-6917-1000158.pdf

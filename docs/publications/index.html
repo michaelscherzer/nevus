@@ -172,6 +172,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ay_13-16 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-url','listing-authors','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-url","listing-authors","listing-logo","listing-semester"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ay_13-16'] = new List('listing-ay_13-16', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XDFMNBGHPJ"></script>
 
@@ -269,6 +297,7 @@ gtag('config', 'G-XDFMNBGHPJ', { 'anonymize_ip': true});
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2022–23</a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2020–21</a></li>
   <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2019–20</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2013–16</a></li>
   </ul>
 </nav>
     </div>
@@ -414,6 +443,100 @@ No matching items
             <p class="course-description">Created a new mouse model to fluorescently tag BRAF and used it to study changes in the transcriptome</p>
             <ul class="course-semesters">
                 <li><a href="https://elifesciences.org/articles/43668"><i class="fa-solid fa-solid fa-dna"></i> https://doi.org/10.7554/eLife.43668</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2013–16</h2>
+<div id="listing-ay_13-16" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
+    <div class="course-entry">
+        <div class="logo">
+            <a href="https://journals.physiology.org/doi/full/10.1152/ajprenal.00433.2015" target="_blank"><img src="logos/dupre.JPG" alt="Suramin Protects against cisplatin-induced acute kidney injury" title="Suramin Protects against cisplatin-induced acute kidney injury"></a>
+        </div>
+        <div class="body">
+            <p class="course-title">
+                <a href="https://journals.physiology.org/doi/full/10.1152/ajprenal.00433.2015" target="_blank">Suramin Protects against cisplatin-induced acute kidney injury</a> 
+            </p>
+            <p class="course-details">
+                <span class="course-number">Winter 2016</span> | 
+                <span class="course-university">American Journal of Physiology Renal Pathology</span>
+            </p>
+             <p class="course-authorship">
+                <span class="course-authors">Dupre, T., Doll, M., Shah, P., Sharp, C., Kiefer, A., Scherzer MT, Siskind, L.</span>
+            </p>
+            <p class="course-description">Tested the efficacy of suramin to protect against cisplastin toxicities</p>
+            <ul class="course-semesters">
+                <li><a href="https://journals.physiology.org/doi/full/10.1152/ajprenal.00433.2015"><i class="fa-solid fa-solid fa-dna"></i> Volume 310,Issue 3, Pages F248-F258</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="course-entry">
+        <div class="logo">
+            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138065" target="_blank"><img src="logos/plosone.JPG" alt="Fibroblast-Derived Extracellular Matrices As An Alternative Cell Culture System That Increases Metastatic Cellular Properties" title="Fibroblast-Derived Extracellular Matrices As An Alternative Cell Culture System That Increases Metastatic Cellular Properties"></a>
+        </div>
+        <div class="body">
+            <p class="course-title">
+                <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138065" target="_blank">Fibroblast-Derived Extracellular Matrices As An Alternative Cell Culture System That Increases Metastatic Cellular Properties</a> 
+            </p>
+            <p class="course-details">
+                <span class="course-number">Fall 2015</span> | 
+                <span class="course-university">Plos One</span>
+            </p>
+             <p class="course-authorship">
+                <span class="course-authors">Scherzer, MT, Waigel, S, Donninger H, Arumugam V, Zacharias, W, Clark, G, Siskind, L, Soucy, P, Beverly, L.</span>
+            </p>
+            <p class="course-description">Created Fibroblast-derived Matrices to compare the cell biology of lung cancer cells in 2D vs 3D</p>
+            <ul class="course-semesters">
+                <li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138065"><i class="fa-solid fa-solid fa-dna"></i> https://doi.org/10.1371/journal.pone.0138065</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="course-entry">
+        <div class="logo">
+            <a href="https://www.oncotarget.com/article/2330/text/" target="_blank"><img src="logos/oncotarget.JPG" alt="The PIM family of oncoproteins are small kinases with huge implications in myeloid leukemogenesis and as therapeutic targets" title="The PIM family of oncoproteins are small kinases with huge implications in myeloid leukemogenesis and as therapeutic targets"></a>
+        </div>
+        <div class="body">
+            <p class="course-title">
+                <a href="https://www.oncotarget.com/article/2330/text/" target="_blank">The PIM family of oncoproteins are small kinases with huge implications in myeloid leukemogenesis and as therapeutic targets</a> 
+            </p>
+            <p class="course-details">
+                <span class="course-number">Fall 2014</span> | 
+                <span class="course-university">Oncotarget</span>
+            </p>
+             <p class="course-authorship">
+                <span class="course-authors">Saurabh K*, Scherzer, MT*, SHah, P, Mims, A, Lockwood, W, Kraft A, Beverly LJ.</span>
+            </p>
+            <p class="course-description">Used in vitro and in vivo models of leukemia to test cooperation of all three PIM kinases to cooperate with MYC</p>
+            <ul class="course-semesters">
+                <li><a href="https://www.oncotarget.com/article/2330/text/"><i class="fa-solid fa-solid fa-dna"></i> https://doi.org/10.18632/oncotarget.2330</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="course-entry">
+        <div class="logo">
+            <a href="https://www.longdom.org/open-access/dissecting-the-in-vivo-leukemogenic-potency-of-bclxl-2329-6917-1000158.pdf" target="_blank"><img src="logos/bclxl.JPG" alt="Dissecting the In Vivo Leukemogenic Potency of BCLxl" title="Dissecting the In Vivo Leukemogenic Potency of BCLxl"></a>
+        </div>
+        <div class="body">
+            <p class="course-title">
+                <a href="https://www.longdom.org/open-access/dissecting-the-in-vivo-leukemogenic-potency-of-bclxl-2329-6917-1000158.pdf" target="_blank">Dissecting the In Vivo Leukemogenic Potency of BCLxl</a> 
+            </p>
+            <p class="course-details">
+                <span class="course-number">Fall 2014</span> | 
+                <span class="course-university">Journal of Leukemia</span>
+            </p>
+             <p class="course-authorship">
+                <span class="course-authors">Saurabh K*, Scherzer, MT*, Song A, Yip KW, Reed JC, et al.</span>
+            </p>
+            <p class="course-description">Here we swapped BH domains of different BCL proteins to determine oncogenic potency</p>
+            <ul class="course-semesters">
+                <li><a href="https://www.longdom.org/open-access/dissecting-the-in-vivo-leukemogenic-potency-of-bclxl-2329-6917-1000158.pdf"><i class="fa-solid fa-solid fa-dna"></i> DOI 10.4172/2329-6917.1000158</a></li>
             </ul>
         </div>
     </div>
