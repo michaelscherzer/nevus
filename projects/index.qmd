@@ -1,0 +1,25 @@
+---
+title: Projects
+date: 2023-09-29
+---
+
+## Understanding Melanoma cell-states and their contributions to disease progression
+
+<img src="plasticity.jpg" style="height: 50%; width: 50%; object-fit: contain" onclick="window.open('https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7309415/', 'blank');"/>
+
+
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+
+----
+
+## Chemopreventative methods for melanoma interception
+
+<img src="plasticity.jpg" style="height: 50%; width: 50%; object-fit: contain" onclick="window.open('https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7309415/', 'blank');"/>
+
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+ill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff hereill put stuff here
+
+

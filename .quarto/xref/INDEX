@@ -34,5 +34,8 @@
   },
   "protect/index.qmd": {
     "index.html": "6e290ec1"
+  },
+  "projects/index.qmd": {
+    "index.html": "014edb1d"
   }
 }

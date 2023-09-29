@@ -17,7 +17,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Projects"
-        file: protect/index.html
+        file: projects/index.html
       - text: "Publications"
         file: publications/index.qmd
       - text: "CV"
