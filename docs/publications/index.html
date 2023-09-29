@@ -144,6 +144,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ay_19-20 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-url','listing-authors','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-url","listing-authors","listing-logo","listing-semester"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ay_19-20'] = new List('listing-ay_19-20', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XDFMNBGHPJ"></script>
 
@@ -240,6 +268,7 @@ gtag('config', 'G-XDFMNBGHPJ', { 'anonymize_ip': true});
   <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2023–24</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2022–23</a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2020–21</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2019–20</a></li>
   </ul>
 </nav>
     </div>
@@ -354,6 +383,37 @@ No matching items
             <p class="course-description">Studied the resistance mechanisms of uveal melanoma cells to the combination of MAPK- and autophaghy- inhibition</p>
             <ul class="course-semesters">
                 <li><a href="https://aacrjournals.org/clincancerres/article/26/23/6374/82893/Chloroquine-Sensitizes-GNAQ-11-mutated-Melanoma-to"><i class="fa-solid fa-solid fa-dna"></i> Volume 26,Issue 23, p6374–6386</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2019–20</h2>
+<div id="listing-ay_19-20" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
+    <div class="course-entry">
+        <div class="logo">
+            <a href="https://elifesciences.org/articles/43668" target="_blank"><img src="logos/elife_2019.JPG" alt="Mutationally- activated PI3K promotes de-differentiation of lung tumors initiated by the BRAF(V600E) oncoprotein kinase" title="Mutationally- activated PI3K promotes de-differentiation of lung tumors initiated by the BRAF(V600E) oncoprotein kinase"></a>
+        </div>
+        <div class="body">
+            <p class="course-title">
+                <a href="https://elifesciences.org/articles/43668" target="_blank">Mutationally- activated PI3K promotes de-differentiation of lung tumors initiated by the BRAF(V600E) oncoprotein kinase</a> 
+            </p>
+            <p class="course-details">
+                <span class="course-number">Fall 2019</span> | 
+                <span class="course-university">eLife</span>
+            </p>
+             <p class="course-authorship">
+                <span class="course-authors">J Edward van Veen , Michael Scherzer, Julia Boshuizen, Mollee Chu, Annie Liu, Allison Landman, Shon Green, Christy Trejo, Martin McMahon</span>
+            </p>
+            <p class="course-description">Created a new mouse model to fluorescently tag BRAF and used it to study changes in the transcriptome</p>
+            <ul class="course-semesters">
+                <li><a href="https://elifesciences.org/articles/43668"><i class="fa-solid fa-solid fa-dna"></i> https://doi.org/10.7554/eLife.43668</a></li>
             </ul>
         </div>
     </div>

@@ -15,6 +15,11 @@ listing:
     contents: ay_20-21.yml
     sort: "date desc"
     template: ../html/listing.ejs
+    
+  - id: ay_19-20
+    contents: ay_19-20.yml
+    sort: "date desc"
+    template: ../html/listing.ejs
 
 title-block-banner: "#EE6A24"
 page-layout: full
@@ -38,4 +43,8 @@ toc-title: Academic year
 :::{#ay_20-21}
 :::
 
+## 2019–20
+
+:::{#ay_19-20}
+:::
 
