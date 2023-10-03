@@ -10,6 +10,9 @@ library(tidyverse)
 library(data.table)
 library(lubridate)
 library(ggplot2)
+library(rvest)
+library(stringr)
+library(xml2)
 ```
 ```{r}
 theme_rjt <- function (base_size = 12, base_family = "Times New Roman") {
@@ -127,7 +130,20 @@ theme_rjt <- function (base_size = 12, base_family = "Times New Roman") {
 
 
 ```{r}
-data<- fread("https://www.inscc.utah.edu/~steenburgh/ml/gfslccforecast_2023100312.txt", blank.lines.skip = T)
+page <- read_html("https://www.inscc.utah.edu/~steenburgh/ml/")
+
+page %>%
+  html_nodes("a") %>%       # find all links
+  html_attr("href") %>%
+  str_subset("gfsl")->tmp2
+
+link2<-tail(tmp2, n=1)
+link1<-"https://www.inscc.utah.edu/~steenburgh/ml/"
+
+link<-paste(link1,link2,sep = "")
+
+
+data<- fread(link, blank.lines.skip = T)
 
 data2<- unite(data = data,col = "hour",VALID:MOUNTAIN, sep = "")
 
@@ -148,7 +164,24 @@ is.Date(data6$time)
 
 data6$TIME<- ymd_hms(data6$TIME)
 
+p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) + 
+  geom_line() + 
+#geom_ribbon(aes(y = mean, ymin = mean -se, ymax = mean+se, fill = well), alpha = .3) +
+  xlab("Time") + 
+  ylab("Predicted Accumulated Snow (inches)") +
+  theme_rjt() +  
+  theme(legend.key = element_blank()) +
+  theme(legend.title = element_blank()) + 
+  #  scale_color_viridis(discrete=TRUE) +
+  # scale_fill_viridis(discrete=TRUE)+
+  #scale_color_manual(values = my_colors) + scale_fill_manual(values = my_colors)+
+   ggtitle("Snow Predication at Alta, scraped from https://www.inscc.utah.edu/") +theme(plot.title = element_text(hjust = 0.5))+
+  scale_x_datetime(date_breaks = '12 hour', date_labels = "%m/%d %H", minor_breaks = "12 hour")+
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.5))+
+  theme(plot.margin = margin(1, 1, 1, 1, "cm"))
 
+ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
+p
 ```
 
 ```{r}
@@ -172,5 +205,40 @@ p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) +
 p
 
 ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
+```
+
+
+
+```{r}
+library(rvest)
+library(stringr)
+library(xml2)
+page <- read_html("https://www.inscc.utah.edu/~steenburgh/ml/")
+
+
+
+
+page %>%
+  html_nodes("a") %>%       # find all links
+  html_attr("href") %>%     # get the url
+  str_subset("\\.txt") -> tmp # find those that end in .csv.zip
+
+tmp[tmp %>%
+  basename() %>%
+  substr(1, 10) %>%
+  as.Date() %>% which.max()]
+
+tail(tmp, n=1)
+```
+```{r}
+page %>%
+  html_nodes("a") %>%       # find all links
+  html_attr("href") %>%
+  str_subset("gfsl")->tmp2
+
+link2<-tail(tmp2, n=1)
+link1<-"https://www.inscc.utah.edu/~steenburgh/ml/"
+
+link<-paste(link1,link2,sep = "")
 ```
 
