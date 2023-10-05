@@ -6,7 +6,7 @@ from: markdown+emoji
 about:
   template: jolla
   id: about-block
-  image: MichaelScherzer.jpg
+  image: MichaelScherzer_2.png
   links:
     - icon: envelope
       text: Email
