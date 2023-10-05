@@ -201,7 +201,6 @@ p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) +
   theme(axis.text.x = element_text(angle = 45, vjust = 0.5))+
   theme(plot.margin = margin(1, 1, 1, 1, "cm"))
 
-
 p
 
 ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
