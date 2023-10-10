@@ -37,7 +37,7 @@ about:
 
 ## Snow Prediction at Alta
 
-![](snow.JPG){width=100%}
+![](snow.JPG)
 
 
 

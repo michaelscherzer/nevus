@@ -185,6 +185,12 @@ p
 ```
 
 ```{r warning=F}
+breaks<- range(data6$TIME)
+max<- max(data6$TIME)
+min<- min(data6$TIME)
+snow_max<- max(data6$accum_snow)
+
+
 p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) + 
   geom_line(color="blue", size=2) + 
 #geom_ribbon(aes(y = mean, ymin = mean -se, ymax = mean+se, fill = well), alpha = .3) +
@@ -197,14 +203,19 @@ p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) +
   # scale_fill_viridis(discrete=TRUE)+
   #scale_color_manual(values = my_colors) + scale_fill_manual(values = my_colors)+
    ggtitle("Snow Predication at Alta, scraped from https://www.inscc.utah.edu/") +theme(plot.title = element_text(hjust = 0.5))+
-  scale_x_datetime(date_breaks = '12 hour', date_labels = "%m/%d %H%p", minor_breaks = "12 hour", expand=c(0, 0))+
-  theme(axis.text.x = element_text(angle = 45, vjust = 0.5))+
-  theme(plot.margin = margin(1, 1, 1, 1, "cm"))
+  scale_x_datetime(date_breaks = '6 hour', date_labels = "%a %b %d %I%p", expand=c(0,1), limits = breaks)+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5))+
+  theme(plot.margin = margin(1, 2, 1, 1, "cm"))
 
+
+p+scale_y_continuous(breaks = seq(0, snow_max+5, 5), 
+                   limits = c(0,snow_max+1), 
+                   expand = c(.1,1))->p
 
 p
+coord_cartesian(expand = T, clip = "on", xlim = c(min+1, max+1))
 
-ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
+ggsave(filename = "snow.JPG", dpi = "retina", width = 16, height = 12,plot = p)
 ```
 
 
