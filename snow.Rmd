@@ -176,7 +176,7 @@ p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) +
   # scale_fill_viridis(discrete=TRUE)+
   #scale_color_manual(values = my_colors) + scale_fill_manual(values = my_colors)+
    ggtitle("Snow Predication at Alta, scraped from https://www.inscc.utah.edu/") +theme(plot.title = element_text(hjust = 0.5))+
-  scale_x_datetime(date_breaks = '12 hour', date_labels = "%b %d %H %M %p")+
+  scale_x_datetime(date_breaks = '18 hour', date_labels = "%b%d-%I%p")+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.5))+
   theme(plot.margin = margin(2, 2, 2, 2, "cm"))
 
@@ -184,9 +184,9 @@ ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
 p
 ```
 
-```{r}
+```{r warning=F}
 p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) + 
-  geom_line() + 
+  geom_line(color="blue", size=2) + 
 #geom_ribbon(aes(y = mean, ymin = mean -se, ymax = mean+se, fill = well), alpha = .3) +
   xlab("Time") + 
   ylab("Predicted Accumulated Snow (inches)") +
@@ -197,9 +197,10 @@ p<- ggplot(data = data6, aes(x = TIME, y=accum_snow)) +
   # scale_fill_viridis(discrete=TRUE)+
   #scale_color_manual(values = my_colors) + scale_fill_manual(values = my_colors)+
    ggtitle("Snow Predication at Alta, scraped from https://www.inscc.utah.edu/") +theme(plot.title = element_text(hjust = 0.5))+
-  scale_x_datetime(date_breaks = '12 hour', date_labels = "%m/%d %H", minor_breaks = "12 hour")+
+  scale_x_datetime(date_breaks = '12 hour', date_labels = "%m/%d %H%p", minor_breaks = "12 hour", expand=c(0, 0))+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.5))+
   theme(plot.margin = margin(1, 1, 1, 1, "cm"))
+
 
 p
 
