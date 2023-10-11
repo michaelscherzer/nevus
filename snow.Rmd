@@ -13,6 +13,7 @@ library(ggplot2)
 library(rvest)
 library(stringr)
 library(xml2)
+install.packages("svglite")
 ```
 ```{r}
 theme_rjt <- function (base_size = 12, base_family = "Helvetica") {
@@ -156,7 +157,7 @@ data6 %>% rename("temp" = "BALDY")-> data6
 data6$group= "group"
 
 data6$accum_snow<- str_replace_all(string = data6$accum_snow, pattern = '"', replacement="")
-data6$temp<- str_replace_all(string = data6$xtemp, pattern = "F", replacement="")
+data6$temp<- str_replace_all(string = data6$temp, pattern = "F", replacement="")
 
 data6$time<- as.factor(data6$TIME)
 
@@ -195,17 +196,21 @@ p<- ggplot(data = data6, aes(x = TIME)) +
   theme(plot.margin = margin(2, 2, 1, 1, "cm"))
 
 
-p+scale_y_continuous(breaks = seq(0, 50, 5), 
-                   limits = c(0,30), 
-                   expand = c(.1,1), sec.axis = sec_axis(trans = ~., name="temperature at MT BALDY"))+ theme(axis.title.y.right = element_text(color = "blue"))->p
+p+scale_y_continuous(breaks = seq(0, 55, 5), 
+                   limits = c(0,55), 
+                   expand = c(.1,1), sec.axis = sec_axis(trans = ~., name="temperature at MT BALDY", breaks = seq(0,60, 5)))+ theme(axis.title.y.right = element_text(color = "blue"))->p
 p+coord_cartesian(clip = "off")->p
 
 
 p 
 
-ggsave(filename = "snow.JPG", dpi = "retina", width = 8, height = 6,plot = p)
+ggsave(filename = "snow.svg", dpi = "retina", width = 8, height = 6,plot = p)
 ```
 
+```{r}
+library(plotly)
+ggplotly(p)
+```
 
 
 ```{r}
