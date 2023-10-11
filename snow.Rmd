@@ -152,7 +152,7 @@ data3<- unite(data = data2,col = "day", COLLINS:MT, sep = ":")
 data4<- unite(data = data3,col = "time", c(day,hour), sep = ":")
 data5<- mutate(data4, TIME = mdy_h(time))
 data5 %>% rename("accum_snow" = "V27")-> data6
-data6 %>% rename("temp" = "BALDY")-> data6
+data6 %>% rename("temp" = "T/RH")-> data6
 
 data6$group= "group"
 
