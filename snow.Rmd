@@ -14,6 +14,8 @@ library(rvest)
 library(stringr)
 library(xml2)
 install.packages("svglite")
+install.packages("inotify-tools")
+library(inotify-tools)
 ```
 ```{r}
 theme_rjt <- function (base_size = 12, base_family = "Helvetica") {
@@ -205,6 +207,7 @@ p+coord_cartesian(clip = "off")->p
 p 
 
 ggsave(filename = "snow.svg", dpi = "retina", width = 8, height = 6,plot = p)
+
 ```
 
 ```{r}
